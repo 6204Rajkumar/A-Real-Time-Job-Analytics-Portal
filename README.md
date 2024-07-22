@@ -1,15 +1,46 @@
-This project provides an interactive dashboard that empowers users to delve into current job market trends based on their interests or career goals. By leveraging data on job descriptions, it helps users make informed decisions about their job search.
-
-Features: Dynamic Job Trend Exploration: Users can select specific job titles, skills, or locations to see how these factors influence job descriptions. Visualized Insights: The dashboard presents key trends in an engaging and easy-to-understand way using charts, graphs, or other visualizations (tailor this based on your implementation). Filter and Sort Functionality: Refine your search by applying filters on various aspects of job descriptions, and sort results based on desired criteria.
-
-Benefits: Targeted Job Search: Identify jobs that best suit your skills and career aspirations. Informed Decision Making: Gain valuable insights into specific job requirements and trends. Market Awareness: Stay up-to-date on the evolving job market landscape.
-
-How to Use:
-
-Clone the Repository: Bash git clone link-  https://github.com/6204Rajkumar/A-Real-Time-Job-Analytics-Portal.git Install Dependencies (if necessary): Bash cd job-description-dashboard pip install -r requirements.txt Explore Job Trends: Use the provided interface to select job titles, skills, locations, or other filtering criteria. Interact with the visualizations to understand the trends in job descriptions. Additional Notes:
-
-Consider mentioning the data source(s) used for your dashboard. If your project has specific technical aspects, feel free to briefly describe them. Welcome contributions and suggestions for improvement through pull requests. Example Usage:
-
-User selects "Software Engineer" as the job title. The dashboard displays visualizations showing: Frequently mentioned skills in Software Engineer job descriptions. Locations with the highest demand for Software Engineers. The average salary range for Software Engineer positions.
-
-By incorporating this informative description, you'll attract users and provide them with a clear understanding of your job description dashboard's value proposition.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+</head>
+<body>
+    <h1>Job Portal</h1>
+    <div class='tableauPlaceholder' id='viz1721619912495' style='position: relative'>
+        <noscript>
+            <a href='#'>
+                <img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17216193955020&#47;Dashboard1&#47;1_rss.png' style='border: none' />
+            </a>
+        </noscript>
+        <object class='tableauViz'  style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+            <param name='embed_code_version' value='3' />
+             <param name='site_root' value='' />
+             <param name='name' value='Book1_17216193955020&#47;Dashboard1' />
+             <param name='tabs' value='no' />
+             <param name='toolbar' value='yes' />
+             <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17216193955020&#47;Dashboard1&#47;1.png' /> 
+             <param name='animate_transition' value='yes' />
+             <param name='display_static_image' value='yes' />
+             <param name='display_spinner' value='yes' />
+             <param name='display_overlay' value='yes' />
+             <param name='display_count' value='yes' />             
+             <param name='language' value='en-US' />
+             <param name='filter' value='publish=yes' />
+            </object>
+        </div>         
+               <script type='text/javascript'>     
+                 var divElement = document.getElementById('viz1721619912495');                 
+                    var vizElement = divElement.getElementsByTagName('object')[0];  
+                     if ( divElement.offsetWidth > 800 ) 
+                     { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+                     else if ( divElement.offsetWidth > 500 )
+                      { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';}
+                       else { vizElement.style.width='100%';vizElement.style.height='1977px';}                 
+                           var scriptElement = document.createElement('script');                 
+                              scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                 
+                                vizElement.parentNode.insertBefore(scriptElement, vizElement);              
+                              </script>
+</body>
+</html>
